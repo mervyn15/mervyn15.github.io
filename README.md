@@ -1,9 +1,7 @@
 # NNIC MMS demo frontend
 
-React frontend for https://mervyn15.github.io. The existing ChatGPT Sites address remains active. Both use the same backend, D1 database, accounts and R2 uploads at https://nnic-mms.mervyn27.chatgpt.site.
+Live at https://mervyn15.github.io/nnic/. Old root bookmarks redirect to the new location. The ChatGPT Sites address remains active. Both use the same backend, D1 database, accounts and R2 uploads at https://nnic-mms.mervyn27.chatgpt.site.
 
-This repository contains public frontend release files only. It contains no database export, credentials, server source, private manuals or email configuration. One-hour revocable sessions are stored in this browser tab. Sign in again after expiry.
+Public frontend release assets only. No database export, credentials, private manuals or backend source. Canonical source is maintained in Sites Git. Build worker/build.mjs, then tools/build-pages.mjs. Publish main from repository root.
 
-The canonical application build produces this directory with tools/build-pages.mjs after worker/build.mjs. Publish main from the repository root using GitHub Pages. Update the backend before deploying a frontend that requires new APIs. Do not edit minified bundles manually.
-
-This remains a demonstration system, not approved for operational use.
+Install using the header Install app control or the browser menu. The app uses network-only navigation with a safe offline screen; records and uploads are not cached offline. Each origin has its own login and device notification subscription.
